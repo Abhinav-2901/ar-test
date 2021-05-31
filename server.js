@@ -35,7 +35,7 @@ io.on("connection", socket => {
 });
 
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.heroku.com']
+const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://ar-test-new.heroku.com']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
