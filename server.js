@@ -59,5 +59,5 @@ if (process.env.NODE_ENV === 'production') {
     });
   }
 
-var port = process.env.PORT || 8080;
-server.listen(PORT, () => console.log('server is running on port ' + PORT));
+var port = process.env.port || 8080;
+server.listen(port, () => console.log('server is running on port ' + port));
