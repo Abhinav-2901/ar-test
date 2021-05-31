@@ -132,8 +132,8 @@ const Room = (props) => {
 
     return (
         <div>
-            <video controls style={{height: 500, width: 500}} autoPlay ref={userVideo} />
-            <video controls style={{height: 500, width: 500}} autoPlay ref={partnerVideo} />
+            <video playsinline autoplay loop muted id="myVideo" controls style={{height: 500, width: 500}} autoPlay ref={userVideo} />
+            <video playsinline autoplay loop muted id="myVideo" controls style={{height: 500, width: 500}} autoPlay ref={partnerVideo} />
             <button onClick={shareScreen}>Share screen</button>
         </div>
     );
